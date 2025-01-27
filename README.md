@@ -1,8 +1,9 @@
 # SharePoint/OneDrive SharingLinks Enumerator - v2.0
 Benjamin Barshaw <<benjamin.barshaw@ode.oregon.gov>> - IT Operations & Support Network Team Lead - Oregon Department of Education
 
-Requirements: PnP PowerShell Module
-              SharePoint Admin  
+Requirements: 
+PnP PowerShell Module
+SharePoint Admin  
 
 This script will export by default all true external "guest" users for a SiteCollection or all external SharingLinks for a SiteCollection(s) within an M365 tenant. I have added options to toggle INVITED external users (users with #ext# 
 in their UPN in Entra) as well as internal users to your tenant. In v1.0 of the script the OneDrive SharingLinks were built out from Get-PnPUser because the Groups the user object returns contain references to the SharingLink 
