@@ -63,13 +63,13 @@ class ExternalUser
 ### USER DEFINED VARIABLES SECTION ###
 #
 # PA account to add to user's OneDrive as SiteCollectionAdmin
-$paAccount = "pa_ode_bbarshaw@odemail.onmicrosoft.com"
+$paAccount = "<CHANGE_TO_PA_ACCOUNT>"
 # Change this to the admin portal of your SharePoint
-$spoAdmin = "https://odemail-admin.sharepoint.com"
+$spoAdmin = "<CHANGE_TO_SHAREPOINT_ADMIN_PORTAL>"
 # Change this to the ClientID of the PnP Entra application
-$pnpAppClientId = "ab26adab-5273-4711-ad54-7314e685d34f"
+$pnpAppClientId = "<CHANGE_TO_CLIENTID_OF_PNP_POWERSHELL_ENTRA_APP>"
 # Change this to your TenantID
-$tenantId = "b4f51418-b269-49a2-935a-fa54bf584fc8"
+$tenantId = "<CHANGE_TO_TENANT_ID>"
 # Change this to the SharePoint Libraries you want to traverse
 $sharePointLibraries = @('Documents', 'Site Pages')
 ### END USER DEFINED VARIABLES SECTION ###
