@@ -4,6 +4,7 @@ Benjamin Barshaw <<benjamin.barshaw@ode.oregon.gov>> - IT Operations & Support N
 Requirements: 
 
 PnP PowerShell Module
+
 SharePoint Admin  
 
 This script will export by default all true external "guest" users for a SiteCollection or all external SharingLinks for a SiteCollection(s) within an M365 tenant. I have added options to toggle INVITED external users (users with #ext# 
