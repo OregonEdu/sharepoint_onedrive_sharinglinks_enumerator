@@ -2,6 +2,7 @@
 Benjamin Barshaw <<benjamin.barshaw@ode.oregon.gov>> - IT Operations & Support Network Team Lead - Oregon Department of Education
 
 Requirements: 
+
 PnP PowerShell Module
 SharePoint Admin  
 
